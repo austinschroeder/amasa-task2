@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 header {
@@ -34,10 +35,6 @@ header {
   border-radius: 2px;
 }
 
-.injury {
-  font-family: sans-serif;
-}
-
 .full-name {
   height: 35px;
   width: 85%;
@@ -54,9 +51,10 @@ textarea {
   background-color: #fe6632;
   color: white;
   border: none;
-  height: 2.5rem;
+  height: 3rem;
   width: 85%;
   margin-bottom: 25px;
+  font-size: 1.5rem;
 }
 
 .problem-car-container-container {
@@ -74,12 +72,87 @@ textarea {
   color: white;
   font-family: sans-serif;
   text-align: center;
-  margin: 4px;
+  margin: 12px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
 }
 
 .product {
   margin: 15px;
-  object-fit: contain;
+  width: 95%;
+}
+
+.checkmark-container {
+  background-color: #ebebeb;
+}
+
+.fas {
+  color: #08aade;
+  background-color: #ebebeb;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 20px;
+}
+.checkmark-text {
+  font-family: sans-serif;
+  display: inline-block;
+  margin: 0;
+  color: black;
+}
+
+.subnote {
+  font-size: 0.65rem;
+  margin: 3px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: grey;
+}
+
+.page-break {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.savings-container-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.savings-container {
+  border: solid #cb9e89 1px;
+  width: 90%;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 0px 20px 0px;
+}
+
+.savings-text {
+  color: #f0633d;
+  text-shadow: 1px 1px lightgrey;
+  font-weight: 900;
+}
+
+.dollar-text {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.savings-break {
+  width: 75%;
+}
+
+footer {
+  background-color: #0177b9;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 60px;
+  font-weight: 100;
 }
 
 @media screen and (min-width: 768px) {
