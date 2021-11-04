@@ -1,0 +1,53 @@
+* {
+  /* border: 1px solid red; */
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-hero {
+  background-image: url(/assets/bg-hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  width: 90%;
+  width: 200px;
+}
+
+.injury {
+  font-family: sans-serif;
+}
+
+.submit {
+  background-color: #fe6632;
+  color: white;
+  border: none;
+  height: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* INCREASE SIZING OF ELEMETS */
+}
+
+@media screen and (min-width: 1024px) {
+  /* SLIGHTLY INCREASE SIZE OF A FEW MORE ELEMENTS */
+}
