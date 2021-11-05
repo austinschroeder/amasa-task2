@@ -14,6 +14,18 @@ header {
   /* height: 40px; */
 }
 
+.logo {
+  margin: 10px 0px;
+}
+
+.check-engine {
+  display: none;
+}
+
+.check-engine-subtext {
+  display: none;
+}
+
 .bg-hero {
   background-image: url(/assets/bg-hero.jpeg);
   background-repeat: no-repeat;
@@ -37,7 +49,8 @@ header {
 }
 
 .injury {
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .full-name {
@@ -85,6 +98,7 @@ textarea {
   font-family: sans-serif;
   text-align: center;
   margin: 12px;
+
   font-weight: 400;
 }
 
@@ -178,6 +192,52 @@ footer {
 
 @media screen and (min-width: 768px) {
   /* INCREASE SIZING OF ELEMETS */
+  .logo {
+    margin: 15px 0;
+    margin-right: 60%;
+  }
+
+  .bg-hero {
+    height: 360px;
+  }
+
+  /* .check-engine {
+    display: block;
+  }
+
+  .check-engine-subtext {
+    display: block;
+  } */
+
+  .form-container {
+    width: 35%;
+    margin-left: 40%;
+  }
+
+  .problem-car-text {
+    margin: 8px;
+  }
+
+  .product {
+    width: 30%;
+  }
+
+  .fas {
+    display: inline;
+  }
+
+  .subnote {
+    margin-left: 30%;
+  }
+
+  .savings-container-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .savings-container {
+    margin: 10px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
