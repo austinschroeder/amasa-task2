@@ -2,9 +2,10 @@
   /* border: 1px solid red; */
 }
 
+/* Width 375 */
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -35,6 +36,10 @@ header {
   border-radius: 2px;
 }
 
+.injury {
+  font-weight: 600;
+}
+
 .full-name {
   height: 35px;
   width: 85%;
@@ -43,8 +48,14 @@ header {
 
 textarea {
   width: 85%;
-  margin: 2px;
+  margin: 3px;
   border: 1px solid lightgrey;
+  font-family: sans-serif;
+}
+
+::placeholder {
+  color: rgb(154, 154, 154);
+  font-size: 0.9rem;
 }
 
 .submit {
@@ -52,9 +63,10 @@ textarea {
   color: white;
   border: none;
   height: 3rem;
-  width: 85%;
+  width: 87%;
   margin-bottom: 25px;
   font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .problem-car-container-container {
@@ -73,6 +85,7 @@ textarea {
   font-family: sans-serif;
   text-align: center;
   margin: 12px;
+  font-weight: 400;
 }
 
 .product-container {
@@ -101,14 +114,16 @@ textarea {
   display: inline-block;
   margin: 0;
   color: black;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .subnote {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   margin: 3px;
   margin-top: 10px;
   margin-left: 20px;
-  color: grey;
+  color: rgb(160, 160, 160);
 }
 
 .page-break {
@@ -140,6 +155,7 @@ textarea {
 .dollar-text {
   font-size: 2rem;
   font-weight: 100;
+  margin: 10px 0px;
 }
 
 .savings-break {
@@ -148,11 +164,16 @@ textarea {
 
 footer {
   background-color: #0177b9;
-  color: white;
-  text-align: center;
   padding: 10px;
   margin-top: 60px;
+}
+
+.footer-text {
+  color: white;
+  text-align: center;
   font-weight: 100;
+  font-size: 0.7rem;
+  margin: 10px 0px 5px 0px;
 }
 
 @media screen and (min-width: 768px) {
