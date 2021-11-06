@@ -98,8 +98,14 @@ textarea {
   font-family: sans-serif;
   text-align: center;
   margin: 12px;
+  font-size: 1.35rem;
 
   font-weight: 400;
+}
+/* ===================== */
+.product-checkmark-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .product-container {
@@ -107,30 +113,43 @@ textarea {
   justify-content: center;
 }
 
+.checkmark-container {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+.checkmark-container {
+}
+
+.checkmark-inner {
+  display: flex;
+  margin: 8px 10px;
+  background-color: #ebebeb;
+  border-radius: 20px;
+  width: fit-content;
+}
+
 .product {
   margin: 15px;
   width: 95%;
 }
 
-.checkmark-container {
-  background-color: #ebebeb;
-}
-
 .fas {
   color: #08aade;
-  background-color: #ebebeb;
-  margin: 8px;
-  padding: 8px;
-  border-radius: 20px;
+  margin-top: 6px;
+  margin-left: 10px;
 }
 .checkmark-text {
   font-family: sans-serif;
   display: inline-block;
-  margin: 0;
+  margin: 7px 12px 7px 4px;
   color: black;
   font-size: 1rem;
   font-weight: 500;
 }
+/* ===================== */
 
 .subnote {
   font-size: 0.6rem;
@@ -217,15 +236,22 @@ footer {
   .problem-car-text {
     margin: 8px;
   }
-
+  /* ========================== */
   .product {
-    width: 30%;
+    width: 50%;
   }
 
-  .fas {
-    display: inline;
+  .product-checkmark-container {
+    display: flex;
+    flex-direction: row;
   }
 
+  .checkmark-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* ========================== */
   .subnote {
     margin-left: 30%;
   }
