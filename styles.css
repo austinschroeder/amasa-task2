@@ -198,8 +198,8 @@ textarea {
 }
 
 .page-break {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 0;
+  opacity: 0.5;
 }
 
 .savings-container-container {
@@ -251,7 +251,7 @@ footer {
   margin: 10px 0px 5px 0px;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   /* INCREASE SIZING OF ELEMETS */
   .logo {
     margin: 15px 0;
@@ -259,15 +259,27 @@ footer {
   }
 
   .text-container {
-    width: 40%;
+    color: white;
+    width: 50%;
+    height: 60%;
   }
 
   .check-engine {
     display: block;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px rgb(99, 99, 99);
+    margin-bottom: 25px;
+    margin-left: 15px;
   }
 
   .check-engine-subtext {
     display: block;
+    margin-bottom: 10px;
+  }
+
+  .arrow {
+    color: #f0633d;
+    margin-right: 5px;
   }
 
   .bg-hero {
@@ -275,15 +287,46 @@ footer {
   }
 
   .form-container {
-    width: 35%;
+    width: 30%;
+    height: 70%;
+  }
+
+  .injury,
+  .full-name,
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  .injury {
+    padding: 0 0 18px 0;
+  }
+
+  .submit {
+    margin-bottom: 0;
+  }
+
+  .problem-car-container {
+    margin-bottom: 20px;
   }
 
   .problem-car-text {
     margin: 8px;
   }
-  /* ========================== */
-  .product {
-    /* width: 80%; */
+
+  .checkmark-text {
+    font-weight: 800;
+    display: inline-block;
+    margin: 5px 0px 3px 4px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .subnote {
+    font-size: 0.58rem;
+    margin: 3px;
+    margin-top: 10px;
+    margin-left: 50%;
   }
 
   .product-checkmark-container {
@@ -302,13 +345,44 @@ footer {
     margin-left: 30%;
   }
 
+  .page-break-container {
+    display: flex;
+    justify-content: center;
+  }
+  .page-break {
+    text-align: center;
+    width: 90%;
+    margin: 70px 0;
+  }
+
   .savings-container-container {
     flex-direction: row;
     justify-content: space-evenly;
   }
 
   .savings-container {
-    margin: 10px;
+    width: 240px;
+    height: 110px;
+    padding: 20px 0px 15px 0px;
+  }
+
+  .savings-text {
+    font-weight: 900;
+    font-size: 0.8rem;
+  }
+
+  .dollar-text {
+    font-size: 1.5rem;
+    margin: 10px 0 3px 0;
+  }
+
+  .savings-break {
+    width: 70%;
+    margin-bottom: 2px;
+  }
+
+  .footer-text {
+    font-size: 0.65rem;
   }
 }
 
