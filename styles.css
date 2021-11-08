@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red;*/
+  /* border: 1px solid red; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -386,5 +386,13 @@ footer {
 
   .fas {
     margin-bottom: 0px;
+  }
+
+  .product {
+    width: 285px;
+  }
+
+  .savings-container {
+    width: 295px;
   }
 }
