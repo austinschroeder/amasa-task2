@@ -1,12 +1,12 @@
-### Mobile breakpoint - width: 375px
+#### Mobile breakpoint - width: 375px
 
 <br>
 
-### Tablet breakpoint - width: 768px
+#### Tablet breakpoint - width: 768px
 
 <br>
 
-### Desktop breakpoint - width 1024px
+#### Desktop breakpoint - width 1024px
 
 ---
 
