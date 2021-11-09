@@ -14,3 +14,10 @@
 ---
 
 ## [Live Site Link](https://austinschroeder.github.io/amasa-task2/)
+
+
+## To Run Application Code
+
+-clone repo
+
+-open index.html file in browser
