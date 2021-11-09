@@ -1,3 +1,6 @@
+&copy;2021 Austin Schroeder
+<br>
+
 #### Mobile breakpoint - width: 375px
 
 <br>
